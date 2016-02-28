@@ -1,0 +1,25 @@
+<div class="col-sm-12">
+	<div class="gallery-title row">
+		The Gallery
+	</div>
+	<div class="gallery-panel-sort panel panel-default row">
+		<div class="col-sm-4">
+			<div><button label="Di Collection"></button></div>
+			</div><button label="Phi Collection"></button></dv>
+		</div>
+		<div class="gallery-search form-inline col-sm-4" role="search">
+          	<input type="text" class="form-control" placeholder="Search..." ng-model="query.itemName">
+          	<span>
+              	<button class="btn btn-default" type="button">
+                  	<i class="glyphicon glyphicon-search"></i>
+              	</button>
+          	</span>
+      	</div>
+	</div>
+	<span class="gallery-ng-repeat row col-sm-3" ng-repeat="item in gallery | orderBy:sortType | filter:query">
+		<div class="gallery-thumbnail-text"><span class="italics">{{item.itemName}}</span>, {{item.date}}</div>
+		<div class="gallery-thumbnail-container">
+			<img id="gallery-thumbnail" ng-src="{{item.url}}" ng-click="itemModal(item)"></img>
+		</div>
+	</span>
+</div>

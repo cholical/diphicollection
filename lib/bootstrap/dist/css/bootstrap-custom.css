@@ -1,0 +1,98 @@
+/* set a max-width for horizontal fluid layout and make it centered */
+.limWidth {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1300px; /* or 950px */
+  min-width:760px;
+}
+
+.container-fluid {
+    padding:0px;
+}
+
+.row {
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.navbar-default {
+    background: #3c6178;
+    color:#f8f8f8;
+    box-shadow:0 3px 10px rgba(0,0,0,.3);
+    border-left:none;
+    border-right:none;
+    border:none;
+    border-radius:0px;
+    transition:background 400ms;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color:#faf2e8;
+    font-size:15px;
+}
+
+.navbar-default .navbar-nav .active > a {
+    background-color:transparent    ;
+/*    border-bottom:2px solid #9ac2d9;
+*/    color:#7CBBCA;
+}
+
+.navbar-default .navbar-nav > li > a{
+    background-color: #3c6178;
+    color:#faf2e8;
+    transition: color 350ms, background-color, 350ms;
+    padding-left:20px;
+    padding-right:20px;
+/*    border:1px solid transparent;
+*/    border-radius: 30px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color:#5C8096;
+    color: #f8f8f8;
+/*    border:1px solid #faf2e8;
+*/    border-radius:1px;
+}
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color:transparent;
+    color: #7cbbca;
+/*    border:1px solid #faf2e8;
+*/    border-radius:1px;
+}
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+}
+
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding:0 10px;
+}
+
+.jumbotron {
+    background-color:#e8e8e8;
+    margin-bottom:20px;
+
+
+}
+
+.btn-default {
+    background-color:#3c6178;
+    color:#f8f8f8;
+    color:;
+    transition: color 350ms, background-color, 350ms;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    background-color:#f8f8f8;
+    color:#333;
+}
+
+.btn-default.disabled, .btn-default[disabled], fieldset[disabled] .btn-default, .btn-default.disabled:hover, .btn-default[disabled]:hover, fieldset[disabled] .btn-default:hover, .btn-default.disabled:focus, .btn-default[disabled]:focus, fieldset[disabled] .btn-default:focus, .btn-default.disabled.focus, .btn-default[disabled].focus, fieldset[disabled] .btn-default.focus, .btn-default.disabled:active, .btn-default[disabled]:active, fieldset[disabled] .btn-default:active, .btn-default.disabled.active, .btn-default[disabled].active, fieldset[disabled] .btn-default.active {
+    color:#333;
+    background:transparent;
+    border-color:initial;
+    cursor:default;
+}

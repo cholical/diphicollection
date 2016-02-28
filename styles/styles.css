@@ -1,0 +1,179 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  background-image: url('../img/background.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background: ;
+  margin-bottom: 30px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.panel-exterior {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.main-panel {
+  border-radius: 0px;
+  border: 4px solid;
+}
+
+.header-image {
+  padding-left: 0px;
+  padding-right: 0px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-image-container {
+  padding: 30px;
+}
+
+.container-navbar {
+  border: 0px;
+  border-radius: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container-navbar-interior {
+  border: 0px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-radius: 0px;
+  background-color: white;
+}
+
+.navbar-tabs {
+  font-size: 25px;
+  font-family: Georgia;
+}
+
+.home-paragraph {
+  font-size: 18px;
+  font-family: Georgia;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+}
+
+.home-button-container {
+  padding: 10px;
+  padding-bottom: 25px;
+  border-color: black;
+}
+
+.home-gallery-button {
+  border-radius: 30px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
+  padding-left: 0px;
+  padding-right: 0px;
+  cursor: pointer;
+}
+
+.gallery-title {
+  text-align: center;
+  font-size: 40px;
+  font-family: Georgia;
+  padding-bottom: 20px;
+  padding-bottom: 20px;
+  text-shadow: 0.7px 0.7px #000000;
+}
+
+.gallery-panel-sort {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  border-radius: 0px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.gallery-search {
+  float: right;
+}
+
+#gallery-thumbnail {
+  width: 200px;
+  border: 5px solid;
+  border-color: white;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-thumbnail-text {
+  padding: 8px;
+  font-family: Georgia;
+  font-size: 16px;
+}
+
+#featured-piece {
+  border: 5px solid;
+  border-color: white;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  width: 500px;
+}
+
+.home-featured-piece-name {
+  padding: 10px;
+  font-family: Georgia;
+  font-size: 18px;
+  text-shadow: 0.7px 0.7px #000000;
+}
+
+.home-featured-piece-text {
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  font-family: Georgia;
+  text-decoration: underline;
+}
+
+.gallery-ng-repeat {
+  float: left;
+  height: 400px;
+}
+
+.gallery-thumbnail-container {
+  height: 400px;
+}
+
+.italics {
+  font-style: italic;
+}
+
+#modal-item-picture {
+  max-width: 100%;
+  max-height: 100%;
+  border: 5px solid;
+  border-color: white;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}

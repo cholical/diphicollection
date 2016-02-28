@@ -1,0 +1,26 @@
+<div class="panel-exterior container-fluid">
+	<div class="col-sm-2">
+	</div>
+		<div class="main-panel panel panel-default col-sm-8">
+			<div class="row">
+				<div class="header-image-container col-sm-12">
+					<img class="header-image col-sm-12" ng-src="img/header.jpg" />
+				</div>
+			</div>
+			<div class="container-navbar row">
+				<nav class="container-navbar-interior navbar navbar-default">
+					<ul class="navbar-tabs nav navbar-nav">
+    					<li id="home"><a ui-sref="home" ng-click="makeActive('home')">Home</a></li>
+    					<li id="gallery"><a ui-sref="gallery" ng-click="makeActive('gallery')">Gallery</a></li>
+    					<li id="about"><a ui-sref="about" ng-click="makeActive('about')">About</a></li>
+    					<li id="donate"><a ui-sref="donate" ng-click="makeActive('donate')">Donate</a></li>
+    					<li id="contact"><a ui-sref="contact" ng-click="makeActive('contact')">Contact</a><li>
+  					</ul>
+				</nav>
+			</div>
+			<div class="row" ui-view>
+			</div>
+		</div>
+	<div class="col-sm-2">
+	</div>
+</div>

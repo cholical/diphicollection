@@ -1,0 +1,21 @@
+<div class="row col-sm-12">
+	<div class="home-paragraph">
+		Installed throughout the picturesque campus of the University of North Carolina in Chapel Hill, the Dialectic and Philanthropic Collection of nineteenth and twentieth century American portraits depict prominent figures in the history of the University, the state of North Carolina, and the nation. Acquired by the campus's oldest student organizations, the Dialectic and Philanthropic Societies, these works constitute the largest private portrait collection in the Southeast. Feel free to explore and learn more about these works in the gallery. 
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-6">
+		<div class="home-featured-piece-text">Featured Piece</div>
+		<img id="featured-piece" ng-src="{{featuredPiece.url}}"></img>
+		<div class="home-featured-piece-name">{{featuredPiece.itemName}}</div>
+	</div>
+	<div class="col-sm-4">
+		<span class="home-other-pieces-text">Other Pieces</span>
+		<div ng-repeat="item in otherPieces">
+			<div class="other-pieces-card">
+				<img id="other-piece" ng-src="{{item.url}}"></img>
+				<span class="home-other-piece-name">{{item.itemName}}</span>
+			</div>
+		</div>
+	</div>
+</div>
